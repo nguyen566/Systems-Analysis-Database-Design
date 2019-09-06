@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3365.databaseproject.Controllers.MainMenuController">
+    <children>
+        <ImageView fitHeight="680.0" fitWidth="1000.0" layoutY="-1.0" opacity="0.4">
+            <image>
+                <Image url="@/Images/bg2.jpg" />
+            </image>
+        </ImageView>
+        <Label contentDisplay="CENTER" layoutX="315.0" layoutY="65.0" text="Lady BG Productions">
+            <font>
+                <Font name="Modern No. 20" size="42.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="147.0" layoutY="146.0" prefHeight="463.0" prefWidth="705.0" style="-fx-background-color: #FFF;">
+            <children>
+                <Label layoutX="299.0" layoutY="27.0" text="Main Menu">
+                    <font>
+                        <Font name="Gill Sans MT" size="24.0" />
+                    </font>
+                </Label>
+            <GridPane alignment="CENTER" layoutX="5.0" layoutY="64.0" prefHeight="341.0" prefWidth="697.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageClients" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Clients" textFill="WHITE" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="38.0">
+                           <image>
+                              <Image url="@/Images/group.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageEmployees" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Employees" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="41.0">
+                           <image>
+                              <Image url="@/Images/staff.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="System Settings" textFill="WHITE" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="41.0">
+                           <image>
+                              <Image url="@/Images/settings.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="manageUsers" buttonType="RAISED" graphicTextGap="10.0" onAction="#manageUsers" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Users" textFill="WHITE" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="38.0">
+                           <image>
+                              <Image url="@../Images/customers.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageEvents" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Events" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="36.0">
+                           <image>
+                              <Image url="@../Images/singing.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageMusic" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Music" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="36.0">
+                           <image>
+                              <Image url="@../Images/music-note.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageTimesheets" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Timesheets" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="36.0">
+                           <image>
+                              <Image url="@../Images/clock.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageVacationRequests" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Vacation Requests" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/traveler.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" graphicTextGap="10.0" onAction="#manageTrainingRequests" prefHeight="72.0" prefWidth="200.0" style="-fx-background-radius: 80; -fx-background-color: #4BA2E5;" text="Manage Training Requests" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="36.0">
+                           <image>
+                              <Image url="@../Images/dj.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </GridPane>
+            <Hyperlink fx:id="logoutBtn" layoutX="619.0" layoutY="418.0" onAction="#logout" text="Log Out" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

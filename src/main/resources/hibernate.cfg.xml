@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!--<property name="connection.url">jdbc:postgresql://localhost:5432/ladybg</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">postgres</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgresSQL95Dialect</property>-->
+    <property name="connection.url">jdbc:sqlserver://172.26.54.132:1433;database=LadyBG</property>
+    <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.username">Houston_Vertical_Systems</property>
+    <property name="hibernate.connection.password">CoT-CIS3365</property>
+    <property name="dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
+    <property name="hibernate.default_schema">dbo</property>
+    <property name="hibernate.default_catalog">LadyBG</property>
+    <property name="hibernate.hbm2ddl.auto">validate</property>
+    <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+    <property name="hibernate.jdbc.lob.non_contextual_creation">true</property>
+    <property name="hibernate.id.new_generator_mappings">false</property>
+
+  </session-factory>
+</hibernate-configuration>

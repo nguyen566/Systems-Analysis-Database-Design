@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>edu.uh.tech.cis3365.databaseproject.Models.BookingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Client</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.County</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Employee</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTitle</class>
+        <class>edu.uh.tech.cis3365.databaseproject.EmployeeTrainingRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTrainingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Event</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventDate</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventExpenses</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Locations</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Music</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PaymentMethod</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Payroll</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PhoneNumber</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PostalCode</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ServiceRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Timesheet</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.TimesheetStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.UserInfo</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.UserLogin</class>
+        <class>edu.uh.tech.cis3365.databaseproject.VacationRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.VacationStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PostalCode</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.BookingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Client</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.County</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Employee</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTitle</class>
+        <class>edu.uh.tech.cis3365.databaseproject.EmployeeTrainingRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTrainingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Event</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventDate</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventExpenses</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Locations</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Music</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PaymentMethod</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Payroll</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PhoneNumber</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ServiceRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Timesheet</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.TimesheetStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.UserInfo</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.UserLogin</class>
+        <class>edu.uh.tech.cis3365.databaseproject.VacationRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.VacationStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Client</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTitle</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.BookingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Client</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.County</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Employee</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTitle</class>
+        <class>edu.uh.tech.cis3365.databaseproject.EmployeeTrainingRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTrainingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Event</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventDate</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventExpenses</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Locations</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Music</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PaymentMethod</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Payroll</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PhoneNumber</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PostalCode</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ServiceRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Timesheet</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.TimesheetStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.UserInfo</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.UserLogin</class>
+        <class>edu.uh.tech.cis3365.databaseproject.VacationRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.VacationStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.BookingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Client</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ClientType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.County</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Employee</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTitle</class>
+        <class>edu.uh.tech.cis3365.databaseproject.EmployeeTrainingRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeTrainingStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EmployeeType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Event</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventDate</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventExpenses</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventLocation</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.EventType</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Locations</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Music</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PaymentMethod</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.Payroll</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PhoneNumber</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.PostalCode</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.ServiceRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Timesheet</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.TimesheetStatus</class>
+        <class>edu.uh.tech.cis3365.databaseproject.UserInfo</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.UserLogin</class>
+        <class>edu.uh.tech.cis3365.databaseproject.VacationRequest</class>
+        <class>edu.uh.tech.cis3365.databaseproject.Models.VacationStatus</class>
+        <properties>
+            <!--<property name="toplink.jdbc.url" value="jdbc:postgresql://localhost:5432/ladybg"/>
+            <property name="toplink.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/ladybg"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>-->
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://172.26.54.132:1433;database=LadyBG"/>
+            <property name="hibernate.connection.driver.class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServer2012Dialect"/>
+            <property name="hibernate.default_catalog" value="LadyBG"/>
+            <property name="hibernate.default_schema" value="dbo"/>
+            <property name="hibernate.id.new_generator_mappings" value="false"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

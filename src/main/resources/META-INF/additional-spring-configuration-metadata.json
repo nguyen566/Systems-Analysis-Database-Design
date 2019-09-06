@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "hibernate.temp.use_jdbc_metadata_defaults",
+      "type": "java.lang.String",
+      "description": "Description for hibernate.temp.use_jdbc_metadata_defaults."
+    },
+    {
+      "name": "spring.jpa.hibernate.naming-strategy",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate.naming-strategy."
+    }
+  ] }
